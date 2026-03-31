@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         #parent{
+            
+            justify-content: space-between;
+
+            padding: 10px;
+            width: 100%;
+           
+        }
+        #nav{
+            
+           display: flex;
+           justify-content: space-between;
+           text-align: center;
+           padding: 10px;
+           height: 30px;
+           align-items: center;
+           max-width: 1500px;
+           width: 100%;
+           
+
+
+         
+        }
+             
+        #one-card{
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        button{
+            background-color: skyblue;
+            height: 40px;
+            width: 70px; 
+            border: none;
+           
+        }
+        h1{
+           text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #menuicon{
+            
+            text-decoration: none;
+            height: 20px;
+            width: 20px;
+            
+        }
+
+
+        main{
+           
+       display: flex;
+       max-width: 1500px;
+     width: 80%;
+     margin: 0 auto;
+       
+        }
+        h3{
+            font-size: 30px;
+        }
+        h1{
+             font-size: 40px;
+             color: rgb(0, 183, 255);
+             text-align: left;
+             
+        }
+        p{
+            text-decoration: none;
+            color: rgb(0, 162, 255);
+        }
+        button{
+            background-color: rgb(66, 156, 229);
+            border: 0px;
+            border-radius:5px ;
+            width: 100px;
+        }
+        #img{
+            height: 100px;
+            width: 400px;
+        }
+        #p{
+            color: black;
+            width: 250PX;
+        }
+        .fees{
+            background-color: #000;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            display: flex;
+            max-width: 1500px;
+            width: 100%;
+            margin: 5px;
+            flex-direction: column;
+            margin-bottom: 50px;
+           
+            
+
+        }
+       .fees h1{
+            background:linear-gradient(to right, #1893f7,green);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 80px;
+            margin-bottom: 30px;
+           
+
+        }
+        .fees h2{
+            font-size: 45px;
+            font-weight: 300;
+            color: white;
+        }
+        #b{
+           font-size: 50px;
+           font-weight: 400;
+        }
+
+        #mobile{
+            display: flex;
+         max-width: 1500px;
+         width: 100%;
+         margin: 0 auto;
+         align-items: center;
+       justify-content: space-between;
+       width: 80%;
+      
+    
+       
+        }
+
+        .vi{
+             height: 460px;
+           width: 460px;
+        }
+
+       
+
+        #mo-2{
+          
+            align-items: center;
+            padding: 100px;
+            justify-items: start;
+       
+        }
+
+
+        #app{
+            color: #000;
+            font-weight: 600;
+            font-size: 65px;
+            margin-left: 400px;
+        }
+
+         #app-1{
+            color: #000;
+            font-weight: 600;
+            font-size: 65px;
+            margin-left:400px;
+          
+            width: 600px;
+        }
+        
+
+        #p{
+           font-size: 28px;
+            color: rgb(119, 120, 121);
+        }
+
+       .im{
+    display: flex;
+     background-color: #1893f7;
+     justify-items: start;
+     justify-content: start;
+     margin-left: 500px;
+
+       }
+       #meta{
+        display: flex;
+         max-width: 1500px;
+         width: 100%;
+         margin: 0 auto;
+         align-items: center;
+       justify-content: space-between;
+      height:600px ;
+       background-color: rgb(245, 245, 247);
+      
+       }
+       #me-2{
+        color: black;
+        font-size: 65px;
+     
+        padding-left:300px ;
+        
+       }
+
+       #p-1{
+        font-size: 28px;
+        color: rgb(115, 115, 117);
+      
+  
+      
+        
+       }
+
+       .im-1{
+        padding-left: 300px;
+       }
+       .vi-1{
+        display: flex;
+         height: 500px;
+           width: 460px;
+           padding-right: 100px;
+       }
+       .vi-2{
+         display: flex;
+         height: 500px;
+           width: 460px;
+           padding-left: 225px;
+
+       }
+
+       #board{
+         display: flex;
+         max-width: 1500px;
+         width: 100%;
+         margin: 0 auto;
+         align-items: center;
+       justify-content: space-between;
+      height:600px ;
+
+      
+       }
+
+       #m-2{
+        justify-content: start;
+        align-items: start;
+        padding-right:400px ;
+        
+       }
+
+       #bo{
+        
+        color: black;
+        font-size: 45px;
+        padding-right:300px;
+     
+      
+        
+        
+       }
+
+       #p-2{
+        font-size:30px ;
+        color: rgb(115, 115, 117);
+        padding-right: 300px;
+        
+       }
+       .mi-2{
+        padding-left: 600px;
+       }
+
+
+       #rewards{
+          display: flex;
+         max-width: 1500px;
+         width: 100%;
+         margin: 0 auto;
+         align-items: center;
+       justify-content: space-between;
+      height:600px ;
+       background-color: rgb(245, 245, 247);
+      
+      
+       }
+
+       #re-1{
+       
+        margin-left:200px;
+       }
+       #re-2{
+        color: black;
+        font-size: 56px;
+       }
+       #re-3{
+         color: rgb(115, 115, 117);
+         font-size: 28px;
+       }
+
+       .vi-3{
+       display: flex;
+         height: 400px;
+           width: 400px;
+           padding-right: 400px;
+       }
+
+       #emi{
+        display: flex;
+         max-width: 1500px;
+         width: 100%;
+         margin: 0 auto;
+         align-items: center;
+       justify-content: space-between;
+      height:600px ;
+       }
+
+       .em-1{
+         height: 460px;
+           width: 460px;
+           padding-left: 200px;
+       }
+
+       .em-2{
+        padding-left: 450px;
+       }
+
+       #em-3{
+        color: #000;
+        font-size: 65px;
+      padding-right:100PX;
+
+
+       }
+       #em-4{
+        font-size: 28px;
+        color: rgb(115, 115, 117);
+        padding-right: 100Px;
+       }
+
+       
+       #family{
+          display: flex;
+         max-width: 1500px;
+         width: 100%;
+         margin: 0 auto;
+         align-items: center;
+       justify-content: space-between;
+      height:600px ;
+       background-color: rgb(245, 245, 247);
+      
+      
+       }
+
+       #fa-1{
+       
+        margin-left:200px;
+       }
+       .i-2{
+        height: 65px;
+        width: 65px;
+       }
+       #fa-2{
+        color: black;
+        font-size: 56px;
+       }
+       #fa-3{
+         color: rgb(115, 115, 117);
+         font-size: 28px;
+       }
+     
+       
+
+       .i-3{
+       display: flex;
+         height: 400px;
+           width: 400px;
+           padding-right: 400px;
+       }
+       
+
+       
+
+       #in-2{
+        color: #000;
+        padding-left: 600px;
+        font-size: 65px;
+       }
+
+       #in-3{
+        font-size: 28px;
+        color: rgb(115, 115, 117);
+       }
+
+       #in-4{
+        padding-left: 200px;
+       
+       
+       }
+
+       .p{
+        height: 200px;
+        width: 250px;
+      margin: 30px;
+      border-radius:10px;
+      
+     
+    
+       }
+
+       .p:hover{
+        width: 280px;
+        
+       }
+
+       .h{
+         height: 200px;
+        width: 250px;
+        margin: 30px
+       }
+       .h:hover{
+        width: 280px;
+       }
+       
+       .q{
+         height: 200px;
+        width: 250px;
+        margin: 30px;
+       }
+       .q:hover{
+        width: 280px;
+       }
+
+       .z{
+         height: 200px;
+        width: 250px;
+        margin: 30px;
+       }
+       .z:hover{
+        width: 280px;
+       }
+
+
+        #foo{
+            max-width: 1500px;
+            width: 100%;
+            height: 1400px;
+        background-color: rgb(21, 20, 20);
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       align-self: flex-end;list-style: none;
+     
+
+      }
+
+      
+       .foi-1{
+        height: 150px;
+        width: 150px;
+        margin-top: -50px;
+        
+       
+
+       }
+       .logof{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 35px;
+       }
+
+      #link{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      #fh1{
+        margin: 30px 0 50px 0;
+
+      }
+
+      #fp1{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+      }
+      
+      #fh2{
+        color: white;
+       margin: 70px 0 30px 0;
+      }
+
+      .cmc{
+        color: white;
+        margin: 50px 0 30px 0;
+
+      }
+
+      #cc{
+        color: rgb(0, 153, 255);
+        margin-right: 1000px;
+      }
+
+      #il{
+        color: rgb(0, 153, 255);
+      margin-top: -280px;
+      
+
+      }
+
+       #com{
+        color: rgb(0, 153, 255);
+      margin-top: -280px;
+      margin-left: 1000px;
+      
+
+      }
+
+      .sbm{
+        height: 65px;
+        width: 350px;
+        margin-top: 200px;
+      }
+
+      #fti{
+        margin-top: 40px;
+
+      }
+
+      .tif{
+        height: 40px;
+        width: 40px;
+      }
+      .list{
+        height:40px ;
+        width: 40px;
+      }
+      .pci{
+        height: 20px;
+        width: 40px;
+      }
+
+      #fpl{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+
+
+  
+    </style>
+</head>
+<body>
+
+      <div  id="parent">
+    
+    
+
+        <div id="nav">
+            <a>
+                <img id="one-card" src="https://www.getonecard.app/images/OneCard_Logo_OneCard_Logo_1.png"alt=""/>
+                
+            </a>
+            <a href="#">Home</a>
+            <a href="#">about Us</a>
+            <a href="#">Credit Card</a>
+            <a href="#">offers</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Careers</a>
+            <img id="menuicon" src="dd.png" alt="">
+           
+            <button>Apply now</button>
+           </div>
+        </div>
+
+        </div>
+
+
+
+        <main>
+            <section> 
+                <section class="main">
+                <h3>Say Hi to</h3>
+                <h1>One Credit Card</h1>
+                <p>Our Banking Partners:</p>
+
+            </section>
+            <section>
+                <img id="img"src="https://assets.getonecard.app/assets/legal/Allbanklogo_1773044860.png">
+                 </section >
+            <section>
+                <p id="p">India's best metal credit card. Built with full-stack
+                     tech. Backed by the principles of simplicity, 
+                    transparency, and giving back control to the user.</p>
+               
+            </section>
+            <section>
+                <button>Apply Now</button></section>
+           
+            </section>
+             <video autoplay muted loop>
+
+                  <source src="https://assets.getonecard.app/assets/legal/onehomepage_1773041769.mp4">
+                </video>
+             </main>
+               
+               <section class="fees">
+                <h1>No Hidden Fees Ever.</h1>
+                <h2>No Joining Fees.</h2>
+                <h2>No Annnual Feees.</h2>
+                <h2 id="b">No Rewards Redemption Fees.</h2>
+                
+               </section>
+
+               <section id="mobile">
+                <section id="mo-1">
+              <video autoplay muted loop class="vi">
+                <source src="https://www.getonecard.app/images/powerfulmobileapp.mp4" >
+              </video>
+               </section>
+               <section id="mo-2">
+                <img src="https://www.getonecard.app/images/feature/control_app_icon.svg" class="im">
+                <h1 id="app">Powerful </h1> 
+                <h1 id="app-1">mobile app </h1>
+                <pre id="p">
+    Control all aspects of your One Credit Card 
+                 from the powerful OneCard app -
+      transaction limit, domestic/international 
+           use, online/offline use, contactless
+                   payments and much more.</pre>
+               </section>
+               </section>
+
+               <section id="meta">
+                <section id="me-1">
+                <img src="https://www.getonecard.app/images/feature/metal_icon.svg" class="im-1">
+                
+                <h1 id="me-2">It's metal</h1>
+                <pre id="p-1">
+                    A credit card that is exclusive and     
+                    exquisitely crafted with metal,
+                    because you deserve only the best. 
+                    Why settle for plastic cards anymore
+                    when you can have the premium feel
+                    of a Metal One Credit Card?
+               </pre>
+               </section>
+               <section id="me-3">
+                <video autoplay muted loop class="vi-1">
+                    <source src="https://assets.getonecard.app/assets/legal/OnecardTurnAround_1773044415.mp4">
+                </video>
+               </section>
+               </section>
+
+
+
+
+               <section id="board">
+                <section id="bo-1">
+                    <video autoplay muted loop class="vi-2">
+                        <source src="https://assets.getonecard.app/assets/legal/SeamlessOnboarding.mp4">
+                    </video>
+                </section>
+                <section id="im-2">
+                    <img src="https://www.getonecard.app/images/feature/kyc_icon.svg" class="mi-2">
+                    <h1 id="bo"><pre>
+                    Seamless 
+                   on-boarding</pre></h1>
+                    <pre id="p-2">
+          Get started using a completely digital on
+          -boarding process, and activate your One
+                Credit Card in less than 5 minutes       </pre> 
+                </section>
+               </section>
+
+
+               <section id="rewards">
+                <section id="re-1">
+                    <img src="https://www.getonecard.app/images/feature/rewards_icon.svg">
+                    <h1 id="re-2">5X rewards on your <br>top spends</h1>
+                    <pre id="re-3">
+5X rewards on Top 2 spend
+categories. Points are credited 
+instantly and never expire. Just swipe
+right to redeem. No more rounding off,
+get even fractional points.
+</pre>
+                </section>
+
+                <section id="re-4">
+                    <video autoplay muted loop class="vi-3">
+                        <source src="https://www.getonecard.app/images/feature/rewards.mp4">
+                    </video>
+                </section>
+               </section>
+
+               <section id="emi">
+                <section id="em-1">
+                    <video autoplay muted loop class="em-1">
+                        <source src="https://www.getonecard.app/images/feature/emi.mp4">
+                    </video>
+                </section>
+
+                <section id="em-2">
+                    <img src="https://www.getonecard.app/images/feature/emi.svg" class="em-2">
+                   <pre><h1 id="em-3">One Credit Card 
+            EMI</h1></pre>
+                    <pre id="em-4">
+Shop in full, pay in parts. No calls,
+ no emails, no documentation. Manage 
+         EMIs from the EMI Dashboard.</pre>
+                </section>
+               </section>
+
+
+                 <section id="family">
+                <section id="fa-1">
+                    <img src="https://www.getonecard.app/images/feature/Family_icon_for_web.png" class="i-2">
+                    <h1 id="fa-2">MyFamily</h1>
+                    <pre id="fa-3">
+Share limit with your family. They get their 
+own One Credit Card with separate offers
+while you keep track and control of their
+spending.
+</pre>
+              <button>Apply Now</button>
+                </section>
+
+             
+
+                <section id="re-4">
+                        <img src="https://www.getonecard.app/images/feature/website_familycard_64c.gif" class="i-3">
+                  
+                </section>
+               </section>
+
+
+               <section id="invest">
+                <section id="in-1">
+                    <h1 id="in-2">Investors</h1>
+                    <pre id="in-3">
+             We are backed by marquee investors who share our vision passion, and commitment to
+                                        first principles.
+                 </pre>
+                </section>
+                <section id="in-4">
+                    <img src="https://www.getonecard.app/images/team/peakXV1.svg" class="p">
+                    <img src="https://www.getonecard.app/images/team/hummingbird1.svg" class="h">
+                    <img src="https://www.getonecard.app/images/team/QED1.svg" class="q">
+                    <img src="https://www.getonecard.app/images/team/z471p.svg" class="z">
+                </section>
+               </section>
+
+
+               
+            <footer>
+               <section id="foo">
+                <img src="https://www.getonecard.app/images/OneCard_Logo_OneCard_Logo_2.png" alt="" class="foi-1" >
+
+                <img src="https://www.getonecard.app/images/icons/crafted_with_love.svg" alt="" class="foi-2">
+                <h1 id="fh1">We are all ears!</h1>
+                <p id="fp1">We are a new kid on the block, eager to learn. <br>
+                  All ideas and suggestions are welcome.</p>
+
+                <h3 id="fh2">Follow Us On</h3>
+<section class="logof">
+                <img src="https://www.getonecard.app/images/icons/footer-social-facebook.svg" alt="" class="f">
+                <img src="https://www.getonecard.app/images/icons/xfooterlogo.svg" alt="" class="x">
+                <img src="https://www.getonecard.app/images/icons/footer-social-instagram.svg" alt="" class="f">
+                <img src="https://www.getonecard.app/images/icons/footer-social-linkedin.svg" alt="" class="f">
+                <img src="https://www.getonecard.app/images/icons/footer-social-youtube.svg" alt="" class="f">
+
+</section>
+
+<section id="cc" >
+ <h3 class="cmc">Credit Card Terms</h3>
+ <li>BOBCARD</li>
+ <li>CSB Bank</li>
+ <li>Federal Bank</li>
+ <li>IDFC Bank</li>
+ <li>SBM Bank</li>
+ <li>South Indian Bank</li>
+ <li>Indian Bank</li>
+ <li>Authorized Collection Agencies</li>
+ <li>EMI Terms and Conditions</li>
+
+</section>
+  <section id="il">
+    <h3 class="cmc">Important Link</h3>
+<li>Cookie Policy</li>
+<li>Do Not Disturb</li>
+<li>Privacy Policy</li>
+<li>Terms Of Use</li>
+<li>Unparliamentary language</li>
+<li>Secure Usage Tips</li>
+<li>Caution on Official Contact Info</li>
+<li>OneCard UPI Terms of Use</li>
+<li>BBPS Terms of Use</li>
+<li>Responsible Disclosure Policy</li>
+</section>
+
+<section id="com">
+    <h3 class="cmc">company </h3>
+    <li>About Us</li>
+    <li>Join Us</li>
+    <li>POSH @ Work</li>
+</section>
+
+<section>
+    <img src="https://assets.getonecard.app/assets/legal/ALLBank_1773302102.png" class="sbm">
+</section>
+
+
+
+<section id="fti">
+    <img src="https://www.getonecard.app/images/about/das-iso27001.jpg" class="tif">
+    <img src="https://www.getonecard.app/images/about/visa_service_provider.png" class="list">
+    <img src="https://www.getonecard.app/images/about/pci_dss.jpg" class="pci">
+</section>
+
+
+
+<section id="fpl">
+    <pre>Copyright © 2025 FPL Technologies Pvt. Ltd. All Rights 
+                     Reserved.</pre>
+</section>
+
+</footer>
+
+    
+</body>
+</html>
+
+
+             
